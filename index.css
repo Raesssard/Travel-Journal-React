@@ -8,6 +8,12 @@ body {
 
 .container {
     margin: 45px 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 40px 40px;
 }
 
 header {
@@ -32,6 +38,7 @@ header > h1 {
 article.journal-entry {
     display: flex;
     margin-bottom: 36px;
+    justify-content: center;
 }
 
 article.journal-entry .marker {
